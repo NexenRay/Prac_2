@@ -7,3 +7,7 @@ p{color: blueviolet;}
 h1{color: purple;}
 
 h3{color: purple;}
+
+hr { display: block; height: 0.5px;
+    border: 0; border-top: 5px solid blueviolet;
+    margin: 1em 0; padding: 0; }
