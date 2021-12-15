@@ -1,13 +1,18 @@
-#definicion{color: gray;}
+#definicion{color: purple;}
 
-p.navegador{color: plum;}
+p.navegador{color: darkblue;}
 
-p{color: blueviolet;}
+p{color: black;}
 
 h1{color: purple;}
 
-h3{color: purple;}
+h3{color: darkslateblue;}
 
 hr { display: block; height: 0.5px;
-    border: 0; border-top: 5px solid blueviolet;
+    border: 0; border-top: 5px solid darkred;
     margin: 1em 0; padding: 0; }
+
+body {
+      background-color: rgba(137, 43, 226, 0.116);
+    }
+    
