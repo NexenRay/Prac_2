@@ -1,0 +1,10 @@
+<style type="text/css">
+@font-face {
+    font-family: "My Custom Font";
+    src: url(/home/alumno/Documentos/HTML/Repository/Prac_2/font/colour.ttf) format("truetype");
+}
+p.customfont { 
+    font-family: "My Custom Font", Verdana, Tahoma;
+}
+</style>
+<p class="customfont">Hello world!</p>
