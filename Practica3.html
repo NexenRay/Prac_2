@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 3</title>
+    <H1>Practica bloque 3</H1>
+    <link rel="stylesheet" href="css/styleIndex.css">
+
+    <script>
+        function innom() {
+             var name = document.getElementById("name").value;
+             var apellido = document.getElementById("apellido").value;
+   alert ('Bienvenido ' + name +' '+ apellido)
+       }
+
+
+
+    </script>
+</head>
+<body>
+    <p>Introduce tu nombre 
+    <input type="text" id="name" >
+    introduce tu apellido
+    <input type="text" id="apellido" onchange="innom()">
+     </p>
+</body>
+</html>
