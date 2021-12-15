@@ -1,18 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/styleF1.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practica_3.1</title>
-    <H1>Navegadores web</H1>
+    <H1>Termodinámica</H1>
     
     <hr>
     
     <p id="definicion">
         Un navegador web (en inglés, web browser) es un software, aplicación o programa que permite el acceso a la Web, interpretando la información de distintos tipos de archivos y sitios web para que estos puedan ser vistos.
     </p>
+
+    <script>
+         function myFunction() {
+        //   alert("usted ha ganado mucho money")
+            alert("llame al 906 666");
+        }
+
+        function funcion_nom() {
+  var name = document.getElementById("name").value;
+  alert ('Que monbre mas guapo ' + name)
+}
+
+function funcion_edad() {
+  var age = document.getElementById("age").value;
+  alert ('con ' + age + ' ya tendrás el carnet de conducir. ¿no?')
+}
+        </script>
 
 </head>
 <body>
@@ -28,6 +45,13 @@
     <p class="navegador">Safari es un navegador web de código cerrado desarrollado por Apple Inc. Está disponible para macOS, iPadOS e iOS, y de 2007 a 2012, estaba disponible para Windows.</p>
     <p class="navegador">Google Chrome es un navegador web de código cerrado desarrollado por Google, aunque derivado de proyectos de código abierto (como el motor de renderizado Blink). Está disponible gratuitamente. El nombre del navegador deriva del término en inglés usado para el marco de la interfaz gráfica de usuario («chrome»).</p>
     <p class="navegador">Mozilla Firefox (o simplemente Firefox) es un navegador web libre y de código abierto desarrollado para distintas plataformas, está coordinado por la Corporación Mozilla y la Fundación Mozilla. Usa el motor Gecko para renderizar páginas web, el cual implementa actuales y futuros estándares web.</p>
+
+    <h1>Dime cositas</h1>
+    <p>Tu nombre cerdo</p>
+    <input type="text" id="name">
+    <input type="button" id="name" value="dale" onclick="funcion_nom()">
+    <p> Tu edad cerdo</p>
+       <input type="text" id="age" onchange="funcion_edad()">
 
 </body>
 </html>
