@@ -1,0 +1,13 @@
+div.bl{
+
+    background-color: yellow;
+    border: 1px solid red;
+    width: 250px;
+    height: 100px;
+    display: inline-block;
+}
+
+span.sr{background-color: red;}
+
+span.sv{background-color: green;
+font-weight: bold;}
